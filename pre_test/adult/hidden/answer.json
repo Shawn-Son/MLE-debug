@@ -1,0 +1,23 @@
+{
+  "corruption": "target_leakage",
+  "leak_column": "tax_review_flag",
+  "expected_fix": "Drop column 'tax_review_flag'. No other rows or columns change.",
+  "n_rows": 39073,
+  "original_columns": [
+    "age",
+    "workclass",
+    "fnlwgt",
+    "education",
+    "education-num",
+    "marital-status",
+    "occupation",
+    "relationship",
+    "race",
+    "sex",
+    "capital-gain",
+    "capital-loss",
+    "hours-per-week",
+    "native-country",
+    "class"
+  ]
+}
